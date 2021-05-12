@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background:black;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color:white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -55,9 +55,16 @@ a:hover {
   color: white
 }
 
+.borderlist {
+  list-style-position: inside;
+  border: 1px solid white;
+  border-radius: 15px;
+  transition: all .5s;
+}
+
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Fredericksburg1.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -99,7 +106,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: black;
 }
 
 ul.skills {
@@ -110,14 +117,25 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #e040d3;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
+.skills2 li {
+  border-radius: 6px;
+  display: inline-block;
+  background: turquoise;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skillPic{
+  width: 250px;
+  height: 200px;
+
 }
 
 footer {
